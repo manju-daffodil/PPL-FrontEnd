@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-vector-icons] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/manju/.gradle/caches/transforms-2/files-2.1/42c98737d3e350a4736cd12b3d837f19/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b47e8413a0b2ea54d8610bed36557f3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/fc24c1069c66af513c7c430666e24932/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/564c0bcbe36885c76f4d98a5db14c160/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9681b8e40e7eedb234e2836c78784ada/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /home/manju/.gradle/caches/transforms-2/files-2.1/4b8f8700e9c6ae49f37debab22396da2/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r245459] /home/manju/.gradle/caches/transforms-2/files-2.1/21ee2e2d6b71131fdc12965b5b8a161c/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/2ddfdf50cee783151976c46966c8b149/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/2d8e578f09b2140fe854e12c64386e2d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/7be6a1e90f513f5ac742ff073aa29aa8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/47d92c0fe7dafbdacac87c21a3400639/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9760ee5e7e28afd346d541511c53caca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/60607148e3ebe04a62c22c6faae1c0a2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/30d5a8c722a43b2e13b56b236b37c87a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/64090ba86b750c80fe0b6edd48f2bb65/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ba18ccbf2363835eb209551af8896d40/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/d7ba83bb176274aa788e16f8e125d49f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/613c973a501370ec0bdf34dbb59223df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/4208242f05260d81a76fb2d235fe2fd0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b7a04ca73f5c7ed220a76fd3115a4f9/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/4df2f8439e364266b68d05800b3228b6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9efd7d231bb178322b143476dd286b3b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5dad7f71d9a2750946e1416d9b7b78f9/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/6a15d8f31216acd34a482f735ad3944a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/77d4ab2537b82d35f4fce8c86534f019/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/90bfe5f41fb4e1ebcbd93a84e18a1d88/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/63fb68743e7414064ec4a52f284a98be/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/915f8b40a2871bee831f5c4a991191e2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/34a683209b6faced587339967aca1d2b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/bff14442f9efd0ffc953f8123417deae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/b2c447a75575d628fa135f0685f4e3e1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/d9c9612752b184cfefc48093e2db92e7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3f7a551878fd3e4870af6eb2997b3b40/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/e624de0193faf2980cd8f56c5fd9be17/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/33a145f7e34cf4a17332c6ed1be9298b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/c290863edc6771f3c3a16ff6f1477545/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/f9dd6a4aa096eaff104a37dc622d18af/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5f65f0db88181eae6f87f5ed690bd251/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/78f3eab733b4ca83e24435a88b6d78a3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/bef71e1f24e8d7cc02df3c87bb3a6b0f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5e43a7bce7c6d61591656e4c913d21c1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5c6ea1db6556f80e2fd5e6ef2932d051/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ca195ee8dd252c8123f01301a2cc050a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/949ae5f504b09db63de1485dcfe9a29a/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:3:3-20
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:3:3-20
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:1-39:12
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:9:5-37:19
+MERGED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:9:5-37:19
+MERGED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:9:5-37:19
+MERGED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-splash-screen] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.react:react-native:0.61.5] /home/manju/.gradle/caches/transforms-2/files-2.1/42c98737d3e350a4736cd12b3d837f19/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/manju/.gradle/caches/transforms-2/files-2.1/42c98737d3e350a4736cd12b3d837f19/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b47e8413a0b2ea54d8610bed36557f3/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b47e8413a0b2ea54d8610bed36557f3/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5dad7f71d9a2750946e1416d9b7b78f9/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5dad7f71d9a2750946e1416d9b7b78f9/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/90bfe5f41fb4e1ebcbd93a84e18a1d88/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/90bfe5f41fb4e1ebcbd93a84e18a1d88/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ca195ee8dd252c8123f01301a2cc050a/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ca195ee8dd252c8123f01301a2cc050a/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5dad7f71d9a2750946e1416d9b7b78f9/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:11:7-39
+	tools:ignore
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:13:7-52
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:13:7-52
+	tools:targetApi
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:12:7-41
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:15:7-38
+	android:usesCleartextTraffic
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:10:7-38
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.ppl.SplashActivity
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:21:11-43
+	android:theme
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:20:11-45
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:19:11-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:22:11-25:27
+action#android.intent.action.MAIN
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:23:15-67
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:23:23-64
+category#android.intent.category.LAUNCHER
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:24:15-75
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:24:25-72
+activity#com.ppl.MainActivity
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:29:9-34:36
+	android:label
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:31:11-43
+	android:windowSoftInputMode
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:33:11-53
+	android:exported
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:34:11-34
+	android:configChanges
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:32:11-81
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:30:11-39
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:36:7-84
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml:36:17-81
+uses-sdk
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/manju/.gradle/caches/transforms-2/files-2.1/42c98737d3e350a4736cd12b3d837f19/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/manju/.gradle/caches/transforms-2/files-2.1/42c98737d3e350a4736cd12b3d837f19/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b47e8413a0b2ea54d8610bed36557f3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b47e8413a0b2ea54d8610bed36557f3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/fc24c1069c66af513c7c430666e24932/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/fc24c1069c66af513c7c430666e24932/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/564c0bcbe36885c76f4d98a5db14c160/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/564c0bcbe36885c76f4d98a5db14c160/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9681b8e40e7eedb234e2836c78784ada/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9681b8e40e7eedb234e2836c78784ada/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /home/manju/.gradle/caches/transforms-2/files-2.1/4b8f8700e9c6ae49f37debab22396da2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02] /home/manju/.gradle/caches/transforms-2/files-2.1/4b8f8700e9c6ae49f37debab22396da2/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r245459] /home/manju/.gradle/caches/transforms-2/files-2.1/21ee2e2d6b71131fdc12965b5b8a161c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/manju/.gradle/caches/transforms-2/files-2.1/21ee2e2d6b71131fdc12965b5b8a161c/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/2ddfdf50cee783151976c46966c8b149/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/2ddfdf50cee783151976c46966c8b149/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/2d8e578f09b2140fe854e12c64386e2d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/2d8e578f09b2140fe854e12c64386e2d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/7be6a1e90f513f5ac742ff073aa29aa8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/7be6a1e90f513f5ac742ff073aa29aa8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/47d92c0fe7dafbdacac87c21a3400639/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/47d92c0fe7dafbdacac87c21a3400639/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9760ee5e7e28afd346d541511c53caca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9760ee5e7e28afd346d541511c53caca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/60607148e3ebe04a62c22c6faae1c0a2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/60607148e3ebe04a62c22c6faae1c0a2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/30d5a8c722a43b2e13b56b236b37c87a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/30d5a8c722a43b2e13b56b236b37c87a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/64090ba86b750c80fe0b6edd48f2bb65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/64090ba86b750c80fe0b6edd48f2bb65/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ba18ccbf2363835eb209551af8896d40/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ba18ccbf2363835eb209551af8896d40/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/d7ba83bb176274aa788e16f8e125d49f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/d7ba83bb176274aa788e16f8e125d49f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/613c973a501370ec0bdf34dbb59223df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/613c973a501370ec0bdf34dbb59223df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/4208242f05260d81a76fb2d235fe2fd0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/4208242f05260d81a76fb2d235fe2fd0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b7a04ca73f5c7ed220a76fd3115a4f9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3b7a04ca73f5c7ed220a76fd3115a4f9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/4df2f8439e364266b68d05800b3228b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/4df2f8439e364266b68d05800b3228b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9efd7d231bb178322b143476dd286b3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/9efd7d231bb178322b143476dd286b3b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5dad7f71d9a2750946e1416d9b7b78f9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5dad7f71d9a2750946e1416d9b7b78f9/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/6a15d8f31216acd34a482f735ad3944a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/6a15d8f31216acd34a482f735ad3944a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/77d4ab2537b82d35f4fce8c86534f019/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/77d4ab2537b82d35f4fce8c86534f019/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/90bfe5f41fb4e1ebcbd93a84e18a1d88/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/90bfe5f41fb4e1ebcbd93a84e18a1d88/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/63fb68743e7414064ec4a52f284a98be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/63fb68743e7414064ec4a52f284a98be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/915f8b40a2871bee831f5c4a991191e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/915f8b40a2871bee831f5c4a991191e2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/34a683209b6faced587339967aca1d2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/34a683209b6faced587339967aca1d2b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/bff14442f9efd0ffc953f8123417deae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/bff14442f9efd0ffc953f8123417deae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/b2c447a75575d628fa135f0685f4e3e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/manju/.gradle/caches/transforms-2/files-2.1/b2c447a75575d628fa135f0685f4e3e1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/d9c9612752b184cfefc48093e2db92e7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/d9c9612752b184cfefc48093e2db92e7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3f7a551878fd3e4870af6eb2997b3b40/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/3f7a551878fd3e4870af6eb2997b3b40/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/e624de0193faf2980cd8f56c5fd9be17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/e624de0193faf2980cd8f56c5fd9be17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/33a145f7e34cf4a17332c6ed1be9298b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/33a145f7e34cf4a17332c6ed1be9298b/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/c290863edc6771f3c3a16ff6f1477545/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/c290863edc6771f3c3a16ff6f1477545/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/f9dd6a4aa096eaff104a37dc622d18af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/f9dd6a4aa096eaff104a37dc622d18af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5f65f0db88181eae6f87f5ed690bd251/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5f65f0db88181eae6f87f5ed690bd251/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/78f3eab733b4ca83e24435a88b6d78a3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/78f3eab733b4ca83e24435a88b6d78a3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/bef71e1f24e8d7cc02df3c87bb3a6b0f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/bef71e1f24e8d7cc02df3c87bb3a6b0f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5e43a7bce7c6d61591656e4c913d21c1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5e43a7bce7c6d61591656e4c913d21c1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5c6ea1db6556f80e2fd5e6ef2932d051/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/5c6ea1db6556f80e2fd5e6ef2932d051/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ca195ee8dd252c8123f01301a2cc050a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/manju/.gradle/caches/transforms-2/files-2.1/ca195ee8dd252c8123f01301a2cc050a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/949ae5f504b09db63de1485dcfe9a29a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/manju/.gradle/caches/transforms-2/files-2.1/949ae5f504b09db63de1485dcfe9a29a/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/manju/Project/NativePPL/Frontend/android/app/src/debug/AndroidManifest.xml:5:22-75
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/manju/Project/NativePPL/Frontend/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
