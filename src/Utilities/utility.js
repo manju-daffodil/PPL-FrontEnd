@@ -1,5 +1,5 @@
-import config from '../Config/config';
-import axios from 'axios';
+import config from "../Config/config";
+import axios from "axios";
 
 const callApi = (method, reqURL, data = {}, headers = {}) => {
   return new Promise((resolve, reject) => {
@@ -8,11 +8,10 @@ const callApi = (method, reqURL, data = {}, headers = {}) => {
       method,
       url,
       data,
-      headers,
+      headers
     };
-
-    if (option.method === 'get') delete option['data'];
-    axios({...option})
+    if (option.method === "get") delete option["data"];
+    axios({ ...option })
       .then(response => {
         resolve(response);
       })
@@ -22,4 +21,4 @@ const callApi = (method, reqURL, data = {}, headers = {}) => {
   });
 };
 
-export {callApi};
+export { callApi };

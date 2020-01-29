@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
   Text,
   View,
@@ -7,14 +7,14 @@ import {
   Image,
   TouchableOpacity,
 } from 'react-native';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
-import {Styles, color, centerText} from '../style';
+import { Styles, color, centerText } from '../style';
 
 import LoginBase from './loginBase';
 import EmailIcon from 'react-native-vector-icons/Entypo';
 import PasswordIcon from 'react-native-vector-icons/MaterialCommunityIcons';
-import {getImage} from '../../Utilities/customComponent';
+import { getImage } from '../../Utilities/customComponent';
 
 class Login extends LoginBase {
   render() {
@@ -24,7 +24,7 @@ class Login extends LoginBase {
         style={Styles.backgroundImage}>
         <View style={Styles.parent}>
           <Text style={Styles.text}>Login Form</Text>
-          <View style={[Styles.child, {alignItems: 'center'}]}>
+          <View style={[Styles.child, { alignItems: 'center' }]}>
             <EmailIcon
               style={Styles.image}
               name="email"
@@ -41,7 +41,7 @@ class Login extends LoginBase {
           </View>
           <Text style={Styles.error}>{this.state.emailError}</Text>
 
-          <View style={[Styles.child, {alignItems: 'center'}]}>
+          <View style={[Styles.child, { alignItems: 'center' }]}>
             <PasswordIcon
               style={Styles.image}
               name="onepassword"
@@ -80,7 +80,7 @@ class Login extends LoginBase {
           <TouchableOpacity
             style={[
               Styles.child,
-              {backgroundColor: color.navyBlue, paddingVertical: 10},
+              { backgroundColor: color.navyBlue, paddingVertical: 10 },
               centerText,
             ]}
             onPress={this.forgotPassword}>
@@ -90,7 +90,7 @@ class Login extends LoginBase {
           <TouchableOpacity
             style={[
               Styles.child,
-              {backgroundColor: color.navyBlue, paddingVertical: 10},
+              { backgroundColor: color.navyBlue, paddingVertical: 10 },
               centerText,
             ]}
             onPress={this.Register}>
@@ -102,6 +102,7 @@ class Login extends LoginBase {
   }
 }
 const mapStateToProps = state => {
-  return {state};
+  console.warn("states>>>", state)
+  return { state };
 };
 export default connect(mapStateToProps)(Login);

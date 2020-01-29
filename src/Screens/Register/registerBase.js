@@ -1,30 +1,30 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 
-import {callApi} from '../../Utilities/utility';
+import { callApi } from "../../Utilities/utility";
 import {
   checkField,
   isValidEmail,
   isValidPassword,
   isValidFirstname,
   isValidLastname,
-  isValidUsername,
-} from '../../Utilities/validation';
-import routePath from '../customComponent';
+  isValidUsername
+} from "../../Utilities/validation";
+import routePath from "../customComponent";
 export default class RegisterBase extends Component {
   constructor() {
     super();
     this.state = {
-      username: '',
-      usernameError: '',
-      password: '',
-      passwordError: '',
-      email: '',
-      emailError: '',
-      firstname: '',
-      firstnameError: '',
-      lastname: '',
-      lastnameError: '',
-      errMessage: '',
+      username: "",
+      usernameError: "",
+      password: "",
+      passwordError: "",
+      email: "",
+      emailError: "",
+      firstname: "",
+      firstnameError: "",
+      lastname: "",
+      lastnameError: "",
+      errMessage: ""
     };
   }
 
@@ -32,15 +32,15 @@ export default class RegisterBase extends Component {
     var Username = isValidUsername(this.state.username.trim());
     var Email = isValidEmail(this.state.email.trim());
     var Password = isValidPassword(this.state.password.trim());
-    var Firstname = isValidFirstname(this.state.firstname.trim());
-    var Lastname = isValidLastname(this.state.lastname);
-    if (Email === false) Email = 'Enter correct email format';
+    var Firstname = isValidUsername(this.state.firstname.trim());
+    var Lastname = isValidUsername(this.state.lastname.trim());
+    if (Email === false) Email = "Enter correct email format";
     this.setState({
       usernameError: Username,
       passwordError: Password,
       emailError: Email,
       firstnameError: Firstname,
-      lastnameError: Lastname,
+      lastnameError: Lastname
     });
     if (
       Username === true &&
@@ -54,31 +54,30 @@ export default class RegisterBase extends Component {
   }
 
   handleSubmit = (key, text) => {
-    this.setState({[key]: text});
+    this.setState({ [key]: text });
     let valid = checkField(key, text.trim());
-    this.setState({[`${key}Error`]: valid});
+    this.setState({ [`${key}Error`]: valid });
   };
 
   handlePress = () => {
-    console.warn("this.state",this.state)
     if (this.checkAllMandatoryFields()) {
       let data = this.state;
-      callApi('post', 'registerUser', data)
+      callApi("post", "registerUser", data)
         .then(response => {
-          console.log('Response-----', response.status);
-          if (response.status === 200) {
+          console.log("Response--->>", response.data.length);
+          if (response.status === 200 && response.data.length > 0) {
             // this.props.navigation.navigate('Login');
-            routePath('Login', this.props);
+            routePath("Login", this.props);
           } else {
-            this.setState({errMessage: 'email already registered'});
+            this.setState({ errMessage: "email already registered" });
           }
         })
         .catch(err => {
-          console.log('registerErr--', err);
+          console.log("registerErr--", err);
         });
     }
   };
   login = () => {
-    this.props.navigation.navigate('Login');
+    this.props.navigation.navigate("Login");
   };
 }

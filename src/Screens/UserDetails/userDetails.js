@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Text, View, TextInput, Image } from 'react-native';
-import { Styles, color } from '../style';
-import { connect } from 'react-redux';
-import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
-import Icon from 'react-native-vector-icons/AntDesign';
-import ImagePicker from 'react-native-image-picker'
-import { callApi } from '../../Utilities/utility';
-import Store from '../../Redux/store'
-import { setUserInfo } from '../../Redux/actions';
+import React, { Component } from "react";
+import { Text, View, TextInput, Image } from "react-native";
+import { Styles, color } from "../style";
+import { connect } from "react-redux";
+import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
+import Icon from "react-native-vector-icons/AntDesign";
+import ImagePicker from "react-native-image-picker";
+import { callApi } from "../../Utilities/utility";
+import Store from "../../Redux/store";
+import { setUserInfo } from "../../Redux/actions";
 class UserDetails extends Component {
   constructor(props) {
     super(props);
@@ -21,15 +21,15 @@ class UserDetails extends Component {
   }
   handleChangeText = (key, val) => {
     this.setState({
-      [key]: val,
+      [key]: val
     });
   };
 
   handleSubmit = () => {
     let { tokenId } = this.props.state.token;
     let headers = {
-      Accept: 'application/json',
-      Authorization: `Bearer ${tokenId}`,
+      Accept: "application/json",
+      Authorization: `Bearer ${tokenId}`
     };
 
     let formData = new FormData();
@@ -38,15 +38,13 @@ class UserDetails extends Component {
     formData.append("lastname", this.state.lastname);
     formData.append("profilePicture", {
       uri: this.state.photo.uri,
-      type: 'image/jpeg',
+      type: "image/jpeg",
       name: this.state.photo.fileName,
-      size: this.state.photo.fileSize,
-    })
+      size: this.state.photo.fileSize
+    });
 
-    callApi('post', 'updateUserDetails', formData, headers)
+    callApi("post", "updateUserDetails", formData, headers)
       .then(response => {
-
-
         if (response.status === 200) {
           let userData = {
             _id: response.data[0]._id,
@@ -55,8 +53,9 @@ class UserDetails extends Component {
             lastname: response.data[0].lastname,
             profilePicture: response.data[0].profilePicture
           };
+          console.warn("userData>>>>", userData);
           Store.dispatch(setUserInfo(userData));
-          this.props.navigation.navigate("Timeline")
+          this.props.navigation.navigate("Timeline");
         }
       })
       .catch(err => {
@@ -65,13 +64,12 @@ class UserDetails extends Component {
   };
 
   handlePhoto = () => {
-    let option = { noData: true }
+    let option = { noData: true };
     ImagePicker.launchImageLibrary(option, response => {
       console.warn(response.uri);
-      this.setState({ photo: response })
-    })
-
-  }
+      this.setState({ photo: response });
+    });
+  };
 
   render() {
     let { photo } = this.state;
@@ -81,54 +79,62 @@ class UserDetails extends Component {
           <Icon name="bars" size={40} color="black" />
         </TouchableOpacity>
         <ScrollView>
-
           <Text style={Styles.text}>User Details</Text>
           <View style={styles.userDetailsParent}>
-            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>
-              Firstname
-            </Text>
+            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Firstname</Text>
             <TextInput
               value={this.state.firstname}
-              onChangeText={text => this.handleChangeText('firstname', text)}
+              onChangeText={text => this.handleChangeText("firstname", text)}
               style={{ fontSize: 15, marginTop: 10 }}
             />
           </View>
           <View style={styles.userDetailsParent}>
-            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>
-              Lastname
-            </Text>
+            <Text style={{ fontSize: 20, fontWeight: "bold" }}>Lastname</Text>
             <TextInput
               value={this.state.lastname}
-              onChangeText={text => this.handleChangeText('lastname', text)}
+              onChangeText={text => this.handleChangeText("lastname", text)}
               style={{ fontSize: 15, marginTop: 10 }}
             />
           </View>
           <View style={styles.userDetailsParent}>
-            <Text style={{ fontSize: 20, fontWeight: 'bold', paddingBottom: 10 }}>
+            <Text
+              style={{ fontSize: 20, fontWeight: "bold", paddingBottom: 10 }}
+            >
               Email
             </Text>
             <Text style={{ fontSize: 15, marginTop: 10, paddingBottom: 10 }}>
-              {' '}
+              {" "}
               {this.state.email}
             </Text>
           </View>
-          <TouchableOpacity style={{
-            marginTop: 20,
-            backgroundColor: color.blue,
-            marginHorizontal: 80,
-            paddingVertical: 5,
-            marginLeft: 80,
-            borderColor: 'black',
-            borderWidth: 2,
-            flexDirection: "row"
-
-          }} onPress={this.handlePhoto}>
-            <Text style={{ fontWeight: 'bold', marginLeft: 40 }}>Change Profile Picture</Text>
-            <View>{photo && <Image source={{ uri: photo.uri }} style={{ widt: 50, height: 100 }} />}</View>
+          <TouchableOpacity
+            style={{
+              marginTop: 20,
+              backgroundColor: color.blue,
+              marginHorizontal: 80,
+              paddingVertical: 5,
+              marginLeft: 80,
+              borderColor: "black",
+              borderWidth: 2,
+              flexDirection: "row"
+            }}
+            onPress={this.handlePhoto}
+          >
+            <Text style={{ fontWeight: "bold", marginLeft: 40 }}>
+              Change Profile Picture
+            </Text>
+            <View>
+              {photo && (
+                <Image
+                  source={{ uri: photo.uri }}
+                  style={{ widt: 50, height: 100 }}
+                />
+              )}
+            </View>
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() => {
-              this.props.navigation.navigate('ChangePassword');
+              this.props.navigation.navigate("ChangePassword");
             }}
             style={{
               marginTop: 20,
@@ -136,11 +142,11 @@ class UserDetails extends Component {
               marginHorizontal: 80,
               paddingVertical: 5,
               marginLeft: 80,
-              borderColor: 'black',
+              borderColor: "black",
               borderWidth: 2
-
-            }}>
-            <Text style={{ fontWeight: 'bold', textAlign: 'center' }}>
+            }}
+          >
+            <Text style={{ fontWeight: "bold", textAlign: "center" }}>
               ChangePassword
             </Text>
           </TouchableOpacity>
@@ -151,11 +157,11 @@ class UserDetails extends Component {
               backgroundColor: color.blue,
               marginHorizontal: 80,
               paddingVertical: 5,
-              borderColor: 'black',
+              borderColor: "black",
               borderWidth: 2
-
-            }}>
-            <Text style={{ fontWeight: 'bold', textAlign: 'center' }}>
+            }}
+          >
+            <Text style={{ fontWeight: "bold", textAlign: "center" }}>
               Submit
             </Text>
           </TouchableOpacity>
@@ -174,7 +180,7 @@ const styles = {
     marginLeft: 10,
     paddingVertical: 10,
     borderBottomWidth: 0.7,
-    borderBottomColor: 'grey',
-  },
+    borderBottomColor: "grey"
+  }
 };
 export default connect(mapStateToProps)(UserDetails);

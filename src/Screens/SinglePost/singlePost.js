@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, { Component, Fragment } from "react";
 import {
   View,
   Text,
@@ -7,15 +7,15 @@ import {
   Dimensions,
   StyleSheet,
   TouchableOpacity,
-  TextInput,
-} from 'react-native';
-import {Styles, color} from '../style';
-import config from '../../Config/config';
-import Icon from 'react-native-vector-icons/Entypo';
-import {connect} from 'react-redux';
+  TextInput
+} from "react-native";
+import { Styles, color } from "../style";
+import config from "../../Config/config";
+import Icon from "react-native-vector-icons/Entypo";
+import { connect } from "react-redux";
 
-import {ScrollView} from 'react-native-gesture-handler';
-import SinglePostBase from './SinglePostBase';
+import { ScrollView } from "react-native-gesture-handler";
+import SinglePostBase from "./SinglePostBase";
 
 class SinglePost extends SinglePostBase {
   render() {
@@ -24,25 +24,35 @@ class SinglePost extends SinglePostBase {
         <TouchableOpacity
           onPress={() => {
             this.props.navigation.goBack();
-          }}>
+          }}
+        >
           <Icon name="back" size={40} color="black" />
         </TouchableOpacity>
-        <View style={[Styles.parent, {backgroundColor: color.lightYellow}]}>
+        <View style={[Styles.parent, { backgroundColor: color.lightYellow }]}>
           <ScrollView>
             <View
               style={{
-                flexDirection: 'row',
-                backgroundColor: '#fffff',
-                width: Dimensions.get('window').width,
-              }}>
-              <Icon
-                name="user"
-                size={40}
-                color="black"
-                style={{marginLeft: 10, marginBottom: 10}}
+                flexDirection: "row",
+                backgroundColor: "#fffff",
+                width: Dimensions.get("window").width,
+                marginVertical: 10
+              }}
+            >
+              <Image
+                source={{
+                  uri: `${config.serverURL}/${this.state.currentPost.userId &&
+                    this.state.currentPost.userId.profilePicture}`
+                }}
+                style={{
+                  width: 30,
+                  height: 30,
+                  borderRadius: 40,
+                  marginTop: 10
+                }}
               />
               <Text
-                style={[Styles.timelineText, {marginTop: 15, fontSize: 15}]}>
+                style={[Styles.timelineText, { marginTop: 15, fontSize: 15 }]}
+              >
                 {this.state.currentPost.email}
               </Text>
 
@@ -50,33 +60,35 @@ class SinglePost extends SinglePostBase {
                 style={[
                   Styles.timelineText,
                   {
-                    position: 'absolute',
+                    position: "absolute",
                     right: 0,
                     marginRight: 20,
                     marginTop: 15,
-                    fontSize: 15,
-                  },
-                ]}>
+                    fontSize: 15
+                  }
+                ]}
+              >
                 Category:
                 {this.state.currentPost.cat}
               </Text>
             </View>
             <Image
               source={{
-                uri: `${config.serverURL}/${this.state.currentPost.imageupload}`,
+                uri: `${config.serverURL}/${this.state.currentPost.imageupload}`
               }}
               style={Styles.timelineImageStyle}
             />
-            <View style={{flexDirection: 'row', marginBottom: 10}}>
+            <View style={{ flexDirection: "row", marginBottom: 10 }}>
               <TouchableOpacity
                 activeOpacity={1}
                 onPress={() =>
                   this.handleLike(
                     this.state.currentPost._id,
-                    this.state.currentPost.likes,
+                    this.state.currentPost.likes
                   )
                 }
-                style={Styles.imageButtonStyle}>
+                style={Styles.imageButtonStyle}
+              >
                 <Text style={Styles.imageButtonText}>
                   {this.state.like.length}
                   Like
@@ -85,7 +97,8 @@ class SinglePost extends SinglePostBase {
 
               <TouchableOpacity
                 activeOpacity={1}
-                style={Styles.imageButtonStyle}>
+                style={Styles.imageButtonStyle}
+              >
                 <Text style={Styles.imageButtonText}>
                   {this.state.commentData.length}
                   Comment
@@ -97,22 +110,23 @@ class SinglePost extends SinglePostBase {
               this.state.commentData.map(comm => {
                 return (
                   <View>
-                    <View style={{marginTop: 10}}>
-                      <Text style={{fontWeight: 'bold'}}>
+                    <View style={{ marginTop: 10 }}>
+                      <Text style={{ fontWeight: "bold" }}>
                         {this.props.state.userInfo.firstname}
                       </Text>
                     </View>
                     <View
                       style={{
                         marginBottom: 20,
-                        backgroundColor: 'white',
+                        backgroundColor: "white",
                         marginHorizontal: 10,
-                        width: Dimensions.get('window').width - 20,
+                        width: Dimensions.get("window").width - 20,
                         paddingVertical: 10,
                         borderWidth: 2,
-                        borderColor: 'black',
-                      }}>
-                      <Text style={{marginHorizontal: 10}}>{comm}</Text>
+                        borderColor: "black"
+                      }}
+                    >
+                      <Text style={{ marginHorizontal: 10 }}>{comm}</Text>
                     </View>
                   </View>
                 );
@@ -121,12 +135,13 @@ class SinglePost extends SinglePostBase {
             <TouchableOpacity
               style={{
                 marginTop: 10,
-                backgroundColor: 'white',
+                backgroundColor: "white",
                 marginHorizontal: 20,
-                borderBottomColor: 'black',
+                borderBottomColor: "black",
                 borderRadius: 10,
-                borderWidth: 2,
-              }}>
+                borderWidth: 2
+              }}
+            >
               <TextInput
                 value={this.state.comment}
                 onChangeText={text => {
@@ -139,12 +154,13 @@ class SinglePost extends SinglePostBase {
             <TouchableOpacity
               onPress={this.uploadComment}
               style={{
-                backgroundColor: 'blue',
+                backgroundColor: "blue",
                 marginHorizontal: 120,
                 paddingVertical: 5,
-                marginBottom: 10,
-              }}>
-              <Text style={{textAlign: 'center', fontWeight: 'bold'}}>
+                marginBottom: 10
+              }}
+            >
+              <Text style={{ textAlign: "center", fontWeight: "bold" }}>
                 Upload Comment
               </Text>
             </TouchableOpacity>
@@ -156,7 +172,7 @@ class SinglePost extends SinglePostBase {
 }
 
 let mapStateToProps = state => {
-  return {state};
+  return { state };
 };
 
 export default connect(mapStateToProps)(SinglePost);
